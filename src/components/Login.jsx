@@ -35,7 +35,7 @@ async function loadData(userName,userPassword)
     }
     else{
         alert("Welcome!") 
-        window.location="dash.html"
+       // window.location="dash.html"
         localStorage.setItem("token",response.token)
         //localStorage.setItem("username",e)
     }

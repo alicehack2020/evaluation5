@@ -11,6 +11,7 @@ import Employees from './components/Employees';
 import EmployeeDetail from './components/EmployeeDetail';
 import EmployeeEdit from './components/EmployeeEdit';
 import NotFount from './components/NotFount';
+import EmployeeAdd from './components/EmployeeAdd';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
        <Route path="/Login" element={<Login />} />
        <Route path="/Register" element={<Register />} />
        <Route path="Employees" element={<Employees />} />
+       <Route path="EmployeeAdd" element={<EmployeeAdd />} />
        <Route path='/Employees/:prodId' element={<EmployeeDetail/>} />
        <Route path='/Employees/:prodId/edit' element={<EmployeeEdit/>} />
        <Route path='*' element={<NotFount/>} />
